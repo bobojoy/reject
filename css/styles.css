@@ -36,38 +36,45 @@ header h1:hover{
     color:blueviolet;
     cursor: pointer;
  }
- .main-section {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    padding: 0 10%;
- }
+ 
 
-.info{
-    max-width: 600px;
+#info{
+    justify-content: space-between;    
+    margin-left: 1%;
+    
 }
 
-.info h1 {
+#info h1 {
     font-size: 56px;
     font-weight: 700;
+    margin-top: 100px;
+    
 }
 
-.info h3 {
+#info h3 {
     font-size: 32px;
     font-weight: 700;
     color: #00abf0;
 }
-.info h3 span{
+
+#info h3 span{
     color: aqua;
 }
 
-.info p {
+#info p {
     font-size: 20px;
+    
+}
+#img {
+    display: flex;
+    justify-content: end;
+    margin-top: -250px;
+    height: 60vh;    
+    border-radius: 50px;
+    
+}
 
-}
-.info img{
-    border-radius: 25px;
-}
+
  .button-box{
     width: 500px;
     height:150px;
@@ -88,3 +95,4 @@ header h1:hover{
     color: yellowgreen;
     cursor: pointer;
 }
+
